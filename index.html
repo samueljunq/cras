@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <title>CRAS - São João da Mata</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+              <a href="index.html" class="nav__logo"><img src="assets/img/Logo_02.png"></a>
+          
+              <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Início</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#about" class="nav__link">Quem Somos</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#discover" class="nav__link">Serviços</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#place" class="nav__link">Visite-nos</a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="#unlife" class="nav__link">Oficinas</a>
+                  </li>
+                </ul>
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+                </div>
+              
+              <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+              </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home.png" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__data-legenda">Juntos somos mais <b>
+                            fortes.</b></h1>
+                            <h1 class="home__data-title">Do campo à cidade <b>
+                            trabalhando</b> por <b>você!</b></h1>
+                    </div>
+                    <div class="home__social">
+                        <a href="https://wa.link/utfriz"><button class="transparent-button">Entre em Contato <i class="ri-whatsapp-line"></i></button></a>
+                        
+                        <a href="https://wa.link/utfriz" target="_blank" class="home__social-link">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <a href="https://www.instagram.com/cras.sjm/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info">
+                        <div class="banner">
+                            <a><img src="assets/img/logo-sjm.webp"></a>
+                        </div>
+                    </div>                    
+                </div>
+                <div id="cookie-message">
+                    <p>Nós usamos cookies para melhorar sua experiência em nosso site. Ao continuar navegando, você concorda com o uso de cookies.</p>
+                    <button id="aceitar-cookies">Aceitar</button>
+                    <button id="recusar-cookies">Recusar</button>
+                  </div>
+            </section>
+            
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                  <div class="about__data">
+                    <h2 class="section__title about__title">
+                      <br>Assistência <br>Social
+                    </h2>
+                    <p class="about__description">
+                        A Assistência Social é uma política pública essencial, garantida pela Constituição Federal, que visa assegurar direitos e proteção social a todos os cidadãos em situação de vulnerabilidade. Ela é um direito fundamental, acessível a todos que dela necessitarem, independente de contribuições prévias, e tem como objetivo promover o bem-estar social, a dignidade e a inclusão, fortalecendo a cidadania e a justiça social.
+                    </p>
+                    <button class="transparent-button1" id="modalBtn">Saiba Mais
+                  </div>
+                  <div class="shape"></div>
+                  <div class="quem_img">
+                    <div class="quem_img">
+                      <img src="assets/img/arte.webp" alt="" class="arte-moderna">
+                    </div>
+                  </div>
+                </div>
+              
+              
+              <!-- Modal -->
+              <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <h2>Assistência Social </h2>
+                  <p>A assistência social está organizada por meio do Sistema Único de Assistência Social (Suas), presente em todo o Brasil. Seu objetivo é garantir a proteção social aos cidadãos, ou seja, apoio a indivíduos, famílias e à comunidade no enfrentamento de suas dificuldades, por meio de serviços, benefícios, programas e projetos.
+                     Com um modelo de gestão participativa, o SUAS articula os esforços e os recursos dos municípios, estados e União para a execução e o financiamento da Política Nacional de Assistência Social.               
+                  </p>
+                  <img src="assets/img/assistencia-social.webp" alt="Imagem relevante">
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!--==================== CARD-SOLUÇÕES ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Soluções</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <h3>Assistência Social para População</h3>
+                        <p>Oferecemos suporte social para famílias e indivíduos em situação de vulnerabilidade, com foco em inclusão e proteção.</p>
+                        <img src="assets/img/assistencia1.png">
+                        <div class="extra-content">
+                            <p>Acompanhamento e orientação social para assegurar direitos e promover a inclusão social de populações em risco. Nossos profissionais estão preparados para intervir em diversas situações, garantindo apoio efetivo e contínuo.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Garantia de Documentação</h3>
+                        <p>Facilitamos o acesso à documentação necessária para garantir direitos sociais e civis, como RG, CPF e Certidões.</p>
+                        <img src="assets/img/assistencia2.png">
+                        <div class="extra-content">
+                            <p>Nossa equipe auxilia na obtenção de documentos essenciais, oferecendo suporte em todas as etapas do processo, desde a orientação até a aquisição final, garantindo que todos tenham acesso aos seus direitos legais.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Assistência a Benefícios do INSS</h3>
+                        <p>Auxiliamos no requerimento e manutenção de benefícios previdenciários, como aposentadorias e pensões.</p>
+                        <img src="assets/img/assistencia3.png">
+                        <div class="extra-content">
+                            <p>Nossos especialistas oferecem suporte completo na solicitação e acompanhamento de benefícios do INSS, garantindo que os direitos sejam assegurados e os processos sejam conduzidos de maneira eficiente.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Requerimento do Bolsa Família</h3>
+                        <p>Orientamos e acompanhamos famílias no processo de inscrição e manutenção do benefício Bolsa Família.</p>
+                        <img src="assets/img/assistencia4.png">
+                        <div class="extra-content">
+                            <p>Oferecemos suporte completo no requerimento do Bolsa Família, desde a inscrição inicial até o acompanhamento contínuo para garantir que as famílias recebam o auxílio necessário para sua sustentação.</p>
+                        </div>
+                    </div>
+                </div>
+            
+            <!--==================== VIDEO  ====================-->
+            <section class="video section">
+                <h2 class="section__title">Conhecendo Entidade</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.webm" type="video/webm">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                        
+                    </div>
+                </div>
+                <h2 class="section__title">Vantagens</h2>
+
+                <section class="vantagens section">
+                    <h2 class="section__title">Soluções Cras</h2>
+                    <div class="vantagens__container container">
+                        <div class="vantagens__card">
+                            <h3>Atendimento Integral à Família (PAIF)</h3>
+                            <p>O CRAS oferece o PAIF, que visa apoiar famílias em situação de vulnerabilidade social, promovendo a convivência e o fortalecimento de vínculos familiares e comunitários.</p>
+                        </div>
+                        <div class="vantagens__card">
+                            <h3>Oficinas para Todas as Idades</h3>
+                            <p>Oferecemos diversas oficinas como Violão, Flauta, Jiu Jitsu, Capoeira, Zumba, Academia Kids, Ginástica para Idosos, e Grupo de Convivência, abrangendo todas as faixas etárias.</p>
+                        </div>
+                        <div class="vantagens__card">
+                            <h3>Suporte à Saúde Mental</h3>
+                            <p>Desenvolvemos grupos de saúde mental que proporcionam apoio e acompanhamento especializado para quem precisa, fortalecendo o bem-estar emocional.</p>
+                        </div>
+                        <div class="vantagens__card">
+                            <h3>Garantia de Documentos</h3>
+                            <p>Auxiliamos a população na obtenção de documentos essenciais, garantindo que todos tenham acesso a seus direitos civis.</p>
+                        </div>
+                        <div class="vantagens__card">
+                            <h3>Benefícios Eventuais e Interligados ao INSS</h3>
+                            <p>Além dos benefícios eventuais, o CRAS oferece suporte para o acesso a benefícios do INSS, assegurando direitos previdenciários à população.</p>
+                        </div>
+                        <div class="vantagens__card">
+                            <h3>Setor do Bolsa Família</h3>
+                            <p>O CRAS atua no atendimento às famílias que necessitam do Bolsa Família, oferecendo orientação e suporte contínuo no processo de inscrição e manutenção do benefício.</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+                <!--==================== CUIDADOS OFERECIDOS ====================-->
+            <section class="cuidados section">
+                <h2 class="section__title">Cuidados Oferecidos</h2>
+                <p>Para cada tipo de paciente, <strong>o CRAS</strong> dispõe de profissionais qualificados para atendê-lo em toda rotina diária, conforme a necessidade dos assistenciados.</p>
+                <div class="cuidados__container container">
+                    <ul class="cuidados__list">
+                        <li class="cuidados__item"><i class="fas fa-hand-holding-heart"></i> <a>Atendimento Integral à Família (PAIF)</a></li>
+                        <li class="cuidados__item"><i class="fas fa-guitar"></i> <a>Oficinas de Violão e Flauta</a></li>
+                        <li class="cuidados__item"><i class="fas fa-child"></i> <a>Academia Kids e Capoeira</a></li>
+                        <li class="cuidados__item"><i class="fas fa-dumbbell"></i> <a>Ginástica e Zumba para Idosos</a></li>
+                        <li class="cuidados__item"><i class="fas fa-users"></i> <a>Grupos de Convivência para Idosos</a></li>
+                        <li class="cuidados__item"><i class="fas fa-brain"></i></i><a>Suporte à Saúde Mental</a></li>
+                        <li class="cuidados__item"><i class="fas fa-id-card-alt"></i> <a>Garantia de Documentos</a></li>
+                        <li class="cuidados__item"><i class="fas fa-hand-holding-usd"></i> <a>Benefícios Interligados ao INSS</a></li>
+                        <li class="cuidados__item"><i class="fas fa-hands-helping"></i> <a>Atendimento ao Bolsa Família</a></li>
+                    </ul>
+                </div> 
+            </section>
+        </section>  
+        <!-- Seção Mapa --> 
+        <section class="experience section" id="place">
+            <div class="cras__container container grid">
+                <h2 class="section__title">Transformando Vidas</h2>
+                <div class="experience__overlay">
+                    <img src="assets/video/cras.gif" alt="GIF do CRAS" class="cras-gif">
+                </div>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3701.050119981977!2d-45.93197842471811!3d-21.932624579952616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ca371addd4a54d%3A0x6ba296021bec09a5!2sCentro%20de%20Refer%C3%AAncia%20da%20Assist%C3%AAncia%20Social%20-%20CRAS!5e0!3m2!1spt-BR!2sbr!4v1725326854200!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <a href="https://wa.link/utfriz">
+                    <button class="transparent-button1">Entre em contato<i class="ri-whatsapp-line"></i></button>
+                </a>
+            </div>
+        </section>
+         
+        <section class="oficinas" id="unlife">        
+            <h2 class="section__title">Oficinas</h2>
+            <h6>Conheça um pouco sobre nossas oficinas</h6>
+            <div class="card-container">
+            <div class="card">
+                <h3>Violão</h3>
+                <p>Oficina de violão voltada para iniciantes e intermediários, onde os participantes aprendem técnicas básicas e avançadas de violão.</p>
+                <i class="fas fa-guitar"></i>
+            </div>
+            <div class="card">
+                <h3>Flauta</h3>
+                <p>Oficina de flauta doce, com foco no desenvolvimento da musicalidade e na prática de conjunto.</p>
+                <i class="fas fa-music"></i>
+            </div>
+            <div class="card">
+                <h3>Jiu Jitsu</h3>
+                <p>Aulas de Jiu Jitsu voltadas para o desenvolvimento físico e mental, com foco em disciplina e autodefesa.</p>
+                <i class="fas fa-user-shield"></i>
+            </div>
+            <div class="card">
+                <h3>Capoeira</h3>
+                <p>Oficina de capoeira que combina arte marcial, cultura e música, promovendo a inclusão social.</p>
+                <i class="fas fa-running"></i>
+            </div>
+            <div class="card">
+                <h3>Zumba</h3>
+                <p>Aulas de Zumba que proporcionam exercício físico através da dança, promovendo bem-estar e saúde.</p>
+                <i class="fas fa-music"></i>
+            </div>
+            <div class="card">
+                <h3>Academia Kids</h3>
+                <p>Atividades físicas e recreativas para crianças, promovendo o desenvolvimento saudável desde cedo.</p>
+                <i class="fas fa-child"></i>
+            </div>
+            <div class="card">
+                <h3>Saúde Mental</h3>
+                <p>Oficina focada em cuidados com a saúde mental, oferecendo suporte emocional e psicológico aos participantes.</p>
+                <i class="fas fa-brain"></i>
+            </div>
+            <div class="card">
+                <h3>Ginástica para Idosos</h3>
+                <p>Atividades físicas voltadas para idosos, promovendo a manutenção da saúde e bem-estar.</p>
+                <i class="fas fa-heartbeat"></i>
+            </div>
+            <div class="card">
+                <h3>Convivência Idosos</h3>
+                <p>Espaço de socialização para idosos, onde são realizadas atividades de integração e lazer.</p>
+                <i class="fas fa-users"></i>
+            </div>
+            <div class="card">
+                <h3>Oficina de Canto</h3>
+                <p>Oficina de canto, onde os participantes desenvolvem suas habilidades vocais em grupo.</p>
+                <i class="fas fa-microphone"></i>
+            </div>
+            </div>
+        </section> 
+  </section>
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Horário de Atendimento</h3>
+                        <p class="footer__description">Atendimento customizado <br> <b>5</b> dias na semana, de segunda a sexta-feira.
+                        </p>
+                        <div>
+                           
+                            <a href="https://wa.link/utfriz" target="_blank" class="footer__social">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/cras.sjm/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Cras</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Apoio</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Cuidados</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Assistência</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Localização</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Time</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Estrutura</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Links</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Suporte</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Dúvidas</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2024 Cras - São João da Mata. Todos os Direitos Reservados</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Termos & Condições</a>
+                        <a href="#" class="footer__terms-link">Política de Privacidade</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
